@@ -1,0 +1,22 @@
+# version: "3.8"
+services:
+  AIcasso:
+    image: pytorch2.2.2-v1:latest
+    container_name: aicasso
+    working_dir: /project
+    tty: true
+    volumes:
+      - ./Barbershop:/project
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['1', '2']
+              capabilities: [gpu]
+    networks:
+      - aicasso_net
+  
+networks:
+  aicasso_net:
+    driver: bridge

@@ -1,0 +1,6 @@
+streamlit
+streamlit-webrtc
+pre-commit
+fastapi[all]
+opencv-python
+ultralytics
