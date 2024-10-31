@@ -27,7 +27,7 @@
 
 ## 4. 소개 및 시연 영상
 
-(youtube Links)
+[![AICasso 소개 영상](https://img.youtube.com/vi/bHhdxl2hH-g/0.jpg)](https://www.youtube.com/watch?v=bHhdxl2hH-g)    
 
 ## 5. 설치 및 사용법
 
